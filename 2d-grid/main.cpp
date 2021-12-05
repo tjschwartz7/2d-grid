@@ -6,19 +6,14 @@ int main()
 
 	int const ySize = 21;
 	int const xSize = 21;
-	int x;
 	int grid[xSize][ySize];
-	
-
-	int eqX = 0;
-	int eqY = 0;
 	int opt;
 	printf("(0)y=A\n");
 	printf("(1)y=Ax+B\n");
 	printf("(2)y=Ax^2+Bx+C\n");
 	printf("(3)y=Ax^3+Bx^2+Cx+D\n");
 	scanf_s("%d", &opt);
-	int y, A, B,C,D = 0;
+	int x,y, A, B,C,D = 0;
 	printf("A,B,C,D=");
 	scanf_s("%d%d%d%d", &A, &B, &C, &D);
 
